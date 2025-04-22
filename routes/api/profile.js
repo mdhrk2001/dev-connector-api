@@ -295,4 +295,3 @@ router.delete('/',
 )
 
 module.exports = router;
-// This file defines a simple Express router for the `/api/profile` endpoint.
