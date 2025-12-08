@@ -16,6 +16,7 @@ import Profile from "./components/profile/Profile";
 import Posts from "./components/posts/Posts";
 import Post from "./components/post/Post";
 import PrivateRoute from "./components/routing/PrivateRoute";
+
 // Redux
 import { Provider } from "react-redux";
 import store from "./store";
@@ -24,6 +25,7 @@ import setAuthToken from "./utils/setAuthToken";
 
 import "./App.css";
 
+// Check for token in LS
 if (localStorage.token) {
   setAuthToken(localStorage.token);
 }
